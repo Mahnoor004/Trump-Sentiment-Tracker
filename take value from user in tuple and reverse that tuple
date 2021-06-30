@@ -1,0 +1,11 @@
+t1=()
+for i in range(10):
+    user_input=int(input('enter value '))
+    t1+=(user_input,)
+print(t1)
+new = list(t1)
+print(new)
+new.reverse()
+print(new)
+t2 = tuple(new)
+print(t2)
